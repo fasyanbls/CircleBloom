@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pastel Primary Colors -->
+    <color name="pastel_pink">#FFB3D9</color>
+    <color name="pastel_pink_light">#FFD4E9</color>
+    <color name="pastel_pink_dark">#FF8FC7</color>
+    
+    <color name="pastel_blue">#A8D8FF</color>
+    <color name="pastel_blue_light">#C9E7FF</color>
+    <color name="pastel_blue_dark">#7BC4FF</color>
+    
+    <color name="pastel_purple">#D4BBFF</color>
+    <color name="pastel_purple_light">#E8DDFF</color>
+    <color name="pastel_purple_dark">#B899FF</color>
+
+    <color name="pastel_green_dark">#5DBB63</color>
+    <color name="pastel_red_dark">#FF6961</color>
+    
+    <!-- Accent Colors -->
+    <color name="pastel_lavender">#E6D5FF</color>
+    <color name="pastel_mint">#B8F3D8</color>
+    <color name="pastel_mint_light">#B8F3D8</color>
+    <color name="pastel_mint_dark">#88E3C8</color>
+    <color name="pastel_peach">#FFD4B8</color>
+    <color name="pastel_yellow">#FFF4B8</color>
+    <color name="pastel_yellow_light">#FFF9D9</color>
+    <color name="pastel_yellow_dark">#FFE066</color>
+    <color name="pastel_orange_dark">#FF8C42</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#FAFBFF</color>
+    <color name="background_secondary">#F5F7FF</color>
+    <color name="background_card">#FFFFFF</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FFB3D9</color>
+    <color name="gradient_middle">#D4BBFF</color>
+    <color name="gradient_end">#A8D8FF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#2D3142</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#B8F3D8</color>
+    <color name="warning">#FFF4B8</color>
+    <color name="error">#FFB8C6</color>
+    <color name="info">#A8D8FF</color>
+    <color name="status_error">#FFB8C6</color>
+
+    <!-- Material Design Colors -->
+    <color name="primary">@color/pastel_purple</color>
+    <color name="primary_variant">@color/pastel_purple_dark</color>
+    <color name="secondary">@color/pastel_pink</color>
+    <color name="secondary_variant">@color/pastel_pink_dark</color>
+    <color name="background">@color/background_primary</color>
+    <color name="surface">@color/background_card</color>
+    <color name="error_color">@color/error</color>
+    <color name="on_primary">@color/text_white</color>
+    <color name="on_secondary">@color/text_white</color>
+    <color name="on_background">@color/text_primary</color>
+    <color name="on_surface">@color/text_primary</color>
+    <color name="on_error">@color/text_white</color>
+    
+    <!-- Compatibility Score Colors -->
+    <color name="score_excellent">#B8F3D8</color>
+    <color name="score_good">#A8D8FF</color>
+    <color name="score_fair">#FFF4B8</color>
+    <color name="score_poor">#FFB8C6</color>
+    
+    <!-- Transparent Overlays -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40FFFFFF</color>
+    
+    <!-- Divider -->
+    <color name="divider">#E5E7EB</color>
+    
+    <!-- Legacy Support -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

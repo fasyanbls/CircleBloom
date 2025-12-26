@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium_small">12dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    <dimen name="spacing_huge">95dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_tiny">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_heading">24sp</dimen>
+    <dimen name="text_size_display">32sp</dimen>
+
+    <!-- Card Dimensions -->
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+
+    <!-- Button Dimensions -->
+    <dimen name="button_radius">24dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_padding_horizontal">24dp</dimen>
+
+    <!-- Input Fields -->
+    <dimen name="input_radius">12dp</dimen>
+    <dimen name="input_height">56dp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="icon_tiny">16dp</dimen>
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_medium">32dp</dimen>
+    <dimen name="icon_large">48dp</dimen>
+    <dimen name="icon_xlarge">64dp</dimen>
+
+    <!-- Profile Photo Sizes -->
+    <dimen name="profile_photo_small">32dp</dimen> <!-- Disesuaikan untuk tampilan di toolbar -->
+    <dimen name="profile_photo_medium">60dp</dimen>
+    <dimen name="profile_photo_large">100dp</dimen>
+    <dimen name="profile_photo_xlarge">120dp</dimen>
+
+    <!-- Collapsed Toolbar -->
+    <!-- [PENTING] Ubah atau tambahkan nilai ini menjadi 48dp -->
+    <dimen name="collapsed_toolbar_height">48dp</dimen>
+
+    <!-- FAB -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Progress Indicators -->
+    <dimen name="progress_bar_height">8dp</dimen>
+    <dimen name="progress_bar_radius">4dp</dimen>
+
+    <!-- Badge Sizes -->
+    <dimen name="badge_size">80dp</dimen>
+
+    <!-- Match Card -->
+    <dimen name="match_card_height">200dp</dimen>
+
+    <!-- Session Card -->
+    <dimen name="session_card_height">120dp</dimen>
+</resources>

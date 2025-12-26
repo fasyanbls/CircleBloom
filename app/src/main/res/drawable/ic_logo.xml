@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="@color/pastel_pink_light"
+        android:pathData="M60,10 A50,50 0 1,1 60,110 A50,50 0 1,1 60,10 Z" />
+    
+    <!-- Middle Circle -->
+    <path
+        android:fillColor="@color/pastel_purple_light"
+        android:pathData="M60,25 A35,35 0 1,1 60,95 A35,35 0 1,1 60,25 Z" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="@color/pastel_blue_light"
+        android:pathData="M60,40 A20,20 0 1,1 60,80 A20,20 0 1,1 60,40 Z" />
+    
+    <!-- Bloom Petals -->
+    <path
+        android:fillColor="@color/pastel_pink"
+        android:pathData="M60,20 Q50,30 60,40 Q70,30 60,20 Z" />
+    <path
+        android:fillColor="@color/pastel_purple"
+        android:pathData="M80,40 Q70,50 60,60 Q70,70 80,60 Z" />
+    <path
+        android:fillColor="@color/pastel_blue"
+        android:pathData="M60,80 Q50,70 40,60 Q50,50 60,60 Z" />
+    <path
+        android:fillColor="@color/pastel_lavender"
+        android:pathData="M40,40 Q50,50 60,60 Q50,70 40,60 Z" />
+</vector>

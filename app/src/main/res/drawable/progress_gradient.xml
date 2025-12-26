@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/progress_bar_radius" />
+            <solid android:color="@color/pastel_purple_light" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/progress_bar_radius" />
+                <gradient
+                    android:startColor="@color/pastel_pink"
+                    android:centerColor="@color/pastel_purple"
+                    android:endColor="@color/pastel_blue"
+                    android:type="linear" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

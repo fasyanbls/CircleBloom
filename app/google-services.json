@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "626643815920",
+    "project_id": "circlebloombranch",
+    "storage_bucket": "circlebloombranch.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626643815920:android:28b94545e2eed8458ba135",
+        "android_client_info": {
+          "package_name": "com.example.circlebloom_branch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626643815920-mc9pmke57732qt1u2gvpq47u1938amu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.circlebloom_branch",
+            "certificate_hash": "96cae025c189f5c9b5bb8b0ea6726bda83368df5"
+          }
+        },
+        {
+          "client_id": "626643815920-1i50vm9igur0t77c52s0sekr0g22oh1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALWFrQRPi8XCJxTWhVl5jjUu3fT4HeEjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626643815920-1i50vm9igur0t77c52s0sekr0g22oh1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

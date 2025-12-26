@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.CircleBloom_Branch" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/pastel_purple</item>
+        <item name="colorPrimaryVariant">@color/pastel_purple_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/pastel_pink</item>
+        <item name="colorSecondaryVariant">@color/pastel_pink_dark</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        
+        <!-- Tertiary color -->
+        <item name="colorTertiary">@color/pastel_blue</item>
+        <item name="colorOnTertiary">@color/text_white</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_primary</item>
+        <item name="colorSurface">@color/background_card</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Error color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/text_white</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/background_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/background_card</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.CircleBloom.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CircleBloom.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CircleBloom.LargeComponent</item>
+    </style>
+
+    <style name="Theme.CircleBloom_Branch" parent="Base.Theme.CircleBloom_Branch" />
+    
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.CircleBloom.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.CircleBloom.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.CircleBloom.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Widget.CircleBloom.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="backgroundTint">@color/pastel_purple</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingStart">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/button_padding_horizontal</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="elevation">4dp</item>
+    </style>
+    
+    <style name="Widget.CircleBloom.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/pastel_purple</item>
+        <item name="strokeColor">@color/pastel_purple</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    
+    <style name="Widget.CircleBloom.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/pastel_purple</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Widget.App.Button.IconOnly" parent="Widget.Material3.Button.Icon">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="Widget.CircleBloom.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+    </style>
+    
+    <!-- TextInputLayout Styles -->
+    <style name="Widget.CircleBloom.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/pastel_purple</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/input_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/input_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/input_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/input_radius</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Cute Aesthetic Dropdown Style -->
+    <style name="Widget.CircleBloom.TextInputLayout.Dropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/pastel_purple</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxBackgroundColor">@color/background_card</item>
+        <item name="hintTextColor">@color/pastel_purple</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="endIconTint">@color/pastel_purple</item>
+    </style>
+    
+    <!-- Toolbar Style -->
+    <style name="Widget.CircleBloom.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/background_primary</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.CircleBloom.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/background_card</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemRippleColor">@color/pastel_purple_light</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+    
+    <!-- FAB Style -->
+    <style name="Widget.CircleBloom.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/pastel_pink</item>
+        <item name="tint">@color/text_white</item>
+        <item name="elevation">6dp</item>
+    </style>
+    
+    <!-- Chip Style -->
+    <style name="Widget.CircleBloom.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/pastel_purple_light</item>
+        <item name="chipStrokeColor">@color/pastel_purple</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/pastel_purple_dark</item>
+        <item name="checkedIconTint">@color/pastel_purple</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="TextAppearance.CircleBloom.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">@dimen/text_size_heading</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    
+    <style name="TextAppearance.CircleBloom.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    
+    <style name="TextAppearance.CircleBloom.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    
+    <style name="TextAppearance.CircleBloom.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <!-- Custom Title Section Style -->
+    <style name="Title.Section" parent="TextAppearance.CircleBloom.Title">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.CircleBloom.Splash" parent="Theme.CircleBloom_Branch">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/gradient_start</item>
+    </style>
+</resources>
