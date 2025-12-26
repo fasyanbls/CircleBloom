@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌸 CircleBloom
 
 **Smart Study Partner & Skill Exchange Platform**
