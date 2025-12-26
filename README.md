@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌸 CircleBloom
 
 **Smart Study Partner & Skill Exchange Platform**
@@ -247,3 +248,6 @@ This project is developed for **academic and learning purposes**.
 ---
 
 **CircleBloom — Learn Together, Grow Together 🌸**
+=======
+# CircleBloom
+>>>>>>> 123f58930090cfba0d7b14521d7a1080c66d930d
